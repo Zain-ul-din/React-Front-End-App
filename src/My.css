@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.Head{
+    width:100%;
+    background:tomato; /* color */
+    max-height: 70px;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    position:fixed;
+    z-index:1;
+}
+.INPUT{
+    outline: none;
+    width:230px;
+    height:40px;
+    padding:0px 5px;
+}
+.MyDIV{
+    background:rgba(255, 255, 255, 0);
+    height:100px;
+    width:100%;
+    display:inline-block;
+    align-items: center;
+}
+.Card{
+   max-width:250px;
+   height:300px;
+   width:100%;
+   background:coral;
+   position: relative;
+}
+.Card img{
+    width:100px;
+    height:100px;
+}
+.Detail h1{
+    font-size:23px;
+}
+
+
+@media (max-width:531px){
+    body{
+        background:red;
+    }
+    .Card{
+        margin-left: 100px;
+    }
+}
